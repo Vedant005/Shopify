@@ -1,4 +1,4 @@
-# 🛍️ Item Showcase Web App
+![image](https://github.com/user-attachments/assets/08196df6-0ff8-4518-8e0f-d12bef073d86)# 🛍️ Item Showcase Web App
 
 A full-stack web application built with React + TypeScript (Vite) and Express.js for managing and viewing various items like shirts, pants, shoes, and sports gear.
 
@@ -152,5 +152,9 @@ Ensure CORS is properly configured on the backend and that Vite knows your backe
 ---
 
 ## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/7db87d42-2bf2-46f3-a357-9f1d852e2886)
+![image](https://github.com/user-attachments/assets/f9927d1d-7b8a-4735-8d2c-8b1074d6bf8d)
+![image](https://github.com/user-attachments/assets/578bbf11-cbc8-46ec-903e-20186e779556)
+
 
 ---
