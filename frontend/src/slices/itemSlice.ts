@@ -1,4 +1,3 @@
-// src/features/item/itemSlice.ts
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import api from "../config/api";
 
@@ -25,13 +24,11 @@ const initialState: ItemState = {
   successMessage: null,
 };
 
-// 📦 Fetch Items
 export const fetchItems = createAsyncThunk("items/fetchItems", async () => {
   const res = await api.get("/items/");
   return res.data.data;
 });
 
-// 📦 Add Item
 export const addItem = createAsyncThunk(
   "items/addItem",
   async (formData: FormData) => {
@@ -44,7 +41,6 @@ export const addItem = createAsyncThunk(
   }
 );
 
-// 📦 Enquire Item
 export const enquireItem = createAsyncThunk(
   "items/enquireItem",
   async (itemId: string) => {
